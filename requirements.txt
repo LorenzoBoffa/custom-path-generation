@@ -1,7 +1,6 @@
 streamlit
 numpy>=1.26.0
 pandas==2.2.2
-thinc==8.0.16
 scikit-learn==1.5.1
 spacy==3.0.0 
 https://github.com/explosion/spacy-models/releases/download/it_core_news_sm-3.0.0/it_core_news_sm-3.0.0.tar.gz
