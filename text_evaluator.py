@@ -34,7 +34,7 @@ with col1:
 
             keyword_stats = []
 
-            keyword_without_punctuation = list(set([keyword.lower().replace(",", "").replace(".", "").replace(":", "").replace(";", "").replace("'", "").replace('"', "") for keyword in keywords]))
+            keyword_without_punctuation = list(set([keyword.lower().replace(",", "").replace(".", "").replace(":", "").replace(";", "").replace("'", "").replace('"', "").replace('?', "").replace('(', "").replace(')', "") for keyword in keywords]))
             for keyword in keyword_without_punctuation:
                 prompt = keyword
             
